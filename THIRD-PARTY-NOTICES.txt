@@ -1,0 +1,1 @@
+JSZip is licensed under the MIT License. See https://raw.github.com/Stuk/jszip/main/LICENSE.markdown or the included JSZip license file for details.
