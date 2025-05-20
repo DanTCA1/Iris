@@ -1,0 +1,9 @@
+.folder,
+.file {
+    margin: 0px;
+    margin-left: 30px;
+}
+
+.folder {
+    border: 2px solid #00ffff;
+}
