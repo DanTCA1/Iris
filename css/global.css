@@ -4,6 +4,10 @@ html, body {
     margin: 0;
 }
 
+html {
+    padding-left: 4.5rem;
+}
+
 .folder {
     border: 2px solid #00ffff;
 }
