@@ -1,3 +1,9 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
 .folder,
 .file {
     margin: 0px;
@@ -6,4 +12,36 @@
 
 .folder {
     border: 2px solid #00ffff;
+}
+
+#sideBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 4.5rem;
+    height: 100%;
+    background-color: #a1a1a1;
+    overflow-x: hidden;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
+}
+
+#sideBar > * {
+    width: calc(100% - 1rem); 
+    height: auto; 
+    padding: 0.5rem;
+    transition: width 0.1s ease-in-out, padding 0.1s ease-in-out;
+}
+
+#sideBar >*:hover {
+    padding: 0;
+    width: 100%;
+}
+
+.navPic {
+    width: 100%;
+    height: auto;
 }
